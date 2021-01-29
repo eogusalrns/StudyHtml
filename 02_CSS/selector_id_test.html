@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS Selector Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #header{width:800px;
+                margin:0 auto;
+                background: red;}
+        #wrap{width:800px;
+              margin:0 auto;
+              overflow:hidden;}
+        #aside{width: 400px;
+               float: left;
+               background-color: lavenderblush}
+        #content{width: 400px;
+                 float: left;
+                 background: green;}
+        #footer{widows: 800px;
+                margin:0 auto;}
+        .select {
+            color:red;
+            font-weight: bold;
+            }
+        .item{color:cyan;}
+        .footer{background-color:sienna;}
+        input[type="text"]{background-color: sienna;}
+        input[type="password"]{background-color: skyblue;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>#header 태그</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>#aside 태그</h1>
+            <ul>
+                <li class="select"><a href="https://naver.com">사과</a></li>
+                <li><a href="https://microsoft.com">배</a></li>
+                <li class="select"><a href="https://google.com">바나나</a></li>
+                <li><a href="https://www.pknu.ac.kr">딸기</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h1>#content 태그</h1>
+            <form>
+                <input type="text">
+                <input type="password">
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <h1 class="item footer">#footer 태그</h1>
+    </div>
+</body>
+</html>
