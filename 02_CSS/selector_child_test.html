@@ -6,8 +6,16 @@
     <title>CSS Selector Basic</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style>
-        #header > h1 {color:skyblue}
+        #nav > h1 {color:skyblue}
         #section h1 {color:slateblue}
+        h1:hover{color:red;}
+        h1:active{color:black;}
+        h1:in-range{color:yellowgreen;}
+        input:focus{
+            background-color: orange;
+            }
+        input:enabled{background-color: palegreen;}
+        input:disabled{background-color: red;}
     </style>
 </head>
 <body>
@@ -20,6 +28,14 @@
     <div id="section">
         <h1 class="title">Lorem ipsum</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae nihil odio? Corporis provident quos ducimus illum saepe eos! Illum facere excepturi optio doloribus omnis dolorem expedita reiciendis qui commodi.</p>
+    </div>
+    <div>
+        <form>
+            <label for="">이름</label>
+            <input name="user_id" type="text" value="personar95"><br>
+            <label for="">비밀번호</label>
+            <input name="user_pass" type="password" value="12345"disabled><br>
+        </form>
     </div>
 </body>
 </html>
