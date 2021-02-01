@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script>
+        var count=10;
+        if (count>0){
+            console.log("양수");
+        }else{
+            console.log("음수");
+        }
+        //날짜
+        var date=new Date();
+        var year = date.getFullYear();
+        var month = date.getMonth()+1;//월만 +1해야한다 이유는 몰라
+        var day = date.getDay();
+        var hour = date.getHours();
+        var min = date.getMinutes();
+        var second = date.getSeconds();
+        console.log(year+"-"+month+"-"+day+"-"+hour+"-"+min+"-"+second)
+        
+        if (hour<12){
+            console.log("사오전입니다");
+        }else{
+            console.log("파오후입니다");
+        }
+        if (hour<5) {
+            console.log("잠더자자");
+        } else if (hour<7) {
+            console.log("슬슬 일어나자");
+        } else
+            console.log("기상창!")
+
+        var array=[1,2,3,4,5,6,7,8,9,10];
+/*         console.log(array[0]);
+        console.log(array[1]);
+        console.log(array[2]);
+        console.log(array[3]);
+        console.log(array[4]);
+        console.log(array[5]);
+        console.log(array[6]);
+        console.log(array[7]);
+        console.log(array[8]);
+        console.log(array[9]); */
+
+        //while
+        var i=0;
+        while (i<array.length) {
+            console.log("배열" + i +"번째값"+array[i]);
+            i+=1;
+        }
+
+        for (let index = 0; index < array.length; index++) {
+            console.log(array[index])
+        }
+
+        
+    </script>
+</head>
+<body>
+    <h1>짜바스크립투</h1>
+</body>
+</html>
