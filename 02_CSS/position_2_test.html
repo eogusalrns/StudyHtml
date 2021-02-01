@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body > div{
+            width:400px;
+            height: 100px;
+            border: 3px solid black;
+            position: relative;
+            overflow:scroll;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            position:absolute;
+        }
+        .box:nth-child(1){
+            background-color: red;
+            left: 10px;
+            top: 10px;
+            z-index: 100;
+        }
+        .box:nth-child(2){
+            background-color:blue;
+            left: 50px;
+            top: 50px;
+            z-index:10;
+        }
+        .box:nth-child(3){
+            background-color: green;
+            left: 90px;
+            top: 90px;
+            z-index: 1;
+        }
+        .box:nth-child(4){
+            background-color:pink;
+            left: 130px;
+            top: 130px;
+            z-index: 1;
+        }
+        .box:nth-child(5){
+            background-color: powderblue;
+            left: 170px;
+            top: 170px;
+            z-index: 1;
+        }
+        .box:nth-child(6){
+            background-color: saddlebrown;
+            left: 210px;
+            top: 210px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dicta consequuntur optio minus voluptate! Sapiente doloribus amet maxime voluptates officiis? Voluptatibus illum ratione dolorem ex fugit amet doloremque hic soluta.</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo voluptates assumenda ex voluptatibus itaque voluptate commodi maxime! Eligendi sunt sint ut, molestias minima laboriosam eos, ex a similique voluptas quae?</h1>
+</body>
+</html>
