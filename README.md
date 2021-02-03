@@ -7,6 +7,9 @@ HTML소스(https://github.com/eogusalrns/StudyHtml/tree/main/01_HTML)
 ## CSS3
 CSS3 기본 학습(https://github.com/eogusalrns/StudyHtml/tree/main/02_CSS)
 ------------------------------------------
+## JavaScript
+JS(https://github.com/eogusalrns/StudyHtml/tree/main/03_Javascript)
+------------------------------------------
 ## Project
 전체 통합 프로젝트
 ------------------------------------------
