@@ -1,0 +1,9 @@
+/* 초기화 */
+*{margin: 0px;
+padding:0px;
+font-family:'NanumGothic',sans-serif;
+}
+a{text-decoration: none;}
+img{border:0px;}
+li{list-style: none;}
+html{background: #d4a5a5;}
